@@ -48,10 +48,24 @@ tr {
 }
 
 .footer {
+  margin-top: 66px;
   padding-top: 20px;
   text-align: center;
 }
 
 .card {
-  width: 18rem;
+  width: 25rem;
+}
+/* .header {
+  margin: 25px;
+} */
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  gap: 20px;
+}
+.image {
+  width: 35px;
+  margin: -6px 15px 0px 0px;
 }
