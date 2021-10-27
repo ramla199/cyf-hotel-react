@@ -69,3 +69,13 @@ tr {
   width: 35px;
   margin: -6px 15px 0px 0px;
 }
+.order {
+  margin: 30px auto;
+}
+.noBorder {
+  border: none;
+}
+
+.table1 {
+  border: 5px solid hsl(9, 100%, 50%);
+}

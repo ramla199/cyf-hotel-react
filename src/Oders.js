@@ -8,7 +8,7 @@ const Oders = ({ orderType }) => {
     setOrders(orders + 1);
   };
   return (
-    <li>
+    <li className="oder">
       {orderType}: {orders}{" "}
       <SearchButton title="add" orders={orders} orderOne={orderOne} />
     </li>
